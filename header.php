@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="nav-list">
                 <li><a href="">
                         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380.99 92.46">
                             <defs>

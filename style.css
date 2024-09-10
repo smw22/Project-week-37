@@ -50,14 +50,16 @@ a {
     color: var(--color-green);
 }
 
-#nav {
-    background-color: var(--color-green);
-}
-
-.menu {
+nav {
     background-color: var(--color-green);
     height: 128px;
+
 }
+
+.nav-list{
+    display: flex;
+}
+
 
 .menu ul {
     background-color: var(--color-green);
