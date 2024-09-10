@@ -88,7 +88,7 @@ nav {
     content: "";
     height: 3px;
     width: 100%;
-    background-color: var(--color-blue);
+    background-color: var(--color-white);
     position: absolute;
     left: 0;
     bottom: -15px;
