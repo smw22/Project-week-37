@@ -80,7 +80,8 @@ nav {
     color: var(--color-white);
 }
 
-.menu li a:hover {
+.menu li a:hover,
+.menu li a:focus{
     color: var(--color-gray);
 }
 
@@ -101,6 +102,7 @@ nav {
 .menu li a:focus::after{
     opacity:1;
 }
+
 .menu .page-item-12 {
     display: none;
 }
