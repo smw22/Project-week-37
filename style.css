@@ -70,13 +70,11 @@ nav {
     align-items: center;
     list-style-type: none;
     padding: 20px 0 20px 20px;
-    gap: 20px
+    gap: 25px;
 }
 
 .menu li a {
-    font-size: 24px;
     font-weight: 600;
-    list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--color-white);
