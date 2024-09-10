@@ -79,3 +79,7 @@ nav {
     text-transform: uppercase;
     color: var(--color-white);
 }
+
+.menu .page-item-12 {
+    display: none;
+}
