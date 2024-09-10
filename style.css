@@ -74,6 +74,8 @@ nav {
 }
 
 .menu li a {
+    font-size: 24px;
+    font-weight: 600;
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
