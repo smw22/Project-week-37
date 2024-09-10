@@ -53,10 +53,6 @@ a {
 nav {
     background-color: var(--color-green);
     height: 128px;
-
-}
-
-.nav-list{
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
