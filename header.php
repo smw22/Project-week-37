@@ -10,5 +10,16 @@
 
 <body>
     <header>
+        <?php 
+            wp_nav_menu(
+                array(
+                'menu' => 'primary',
+                'container' =>'',
+                'theme_location' => 'primary',
+                'items_wrap' => '<ul id="" class="">%3$s</ul>'
+                )
+            );
+        ?>
         <h1>Project Hellooo</h1>
+
     </header>
