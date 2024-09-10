@@ -101,3 +101,6 @@ nav {
 .menu li a:focus::after{
     opacity:1;
 }
+.menu .page-item-12 {
+    display: none;
+}
