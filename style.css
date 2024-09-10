@@ -64,17 +64,6 @@ nav {
     align-items: center;
 }
 
-.img-logo{
-    width: 100px;
-    height: 100px;
-}
-
-.logo-svg{
-    height: 100px;
-    height: auto;
-}
-
-
 .menu ul {
     background-color: var(--color-green);
     display: flex;
@@ -84,15 +73,10 @@ nav {
     padding: 20px;
 }
 
-.menu li {
-    
-}
-
 .menu li a {
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--color-white);
     padding: 20px;
-
 }
