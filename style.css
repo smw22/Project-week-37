@@ -51,6 +51,8 @@ a {
 
 .menu ul li a {
     list-style-type: none;
+    text-decoration: none;
+    text-tranform: uppercase;
     color: var(--color-white);
 
 }
