@@ -53,18 +53,14 @@ a {
 
 .menu {
     background-color: var(--color-green);
-    padding: 0;
-    margin: 0;
 }
 
 .menu ul {
     display: flex;
     justify-content: right;
     align-items: center;
-    
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .menu li {
