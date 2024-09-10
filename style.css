@@ -5,32 +5,43 @@ Author: Sergio
 
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root {
     --color-green: #45C954;
     --color-gray: #d9d9d9;
     --font-family: "Public Sans", system-ui;
     --color-white: #ffffff;
+    --color-light-green: #7C807C;
 }
 
-body{
+body {
     background-color: var(--color-gray);
     font-family: var(--font-family);
 }
 
 h1 {
-
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--color-green);
 }
 
 h2 {
-    
+    font-size: 40px;
+    font-weight: 500px;
+    color: var(--color-green);
 }
 
 p {
-
+    font-size: 24px;
+    font-weight: 500px;
+    color: var(--color-light-green);
 }
 
 a {
-
+    font-size: 24px;
+    font-weight: 500px;
+    list-style-type: none;
+    font-style: none;
+    color: var(--color-green);
 }
 
 
