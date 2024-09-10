@@ -2,3 +2,8 @@
 Theme Name: Project Theme
 Author: Sergio
 */
+
+body{
+    background-color: black;
+    color: white;
+}
