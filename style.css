@@ -63,7 +63,10 @@ nav {
     height: auto;
 }
 
-
+.img-logo{
+    width: 100px;
+    height: 100px;
+}
 
 .logo-svg{
     height: 100px;
