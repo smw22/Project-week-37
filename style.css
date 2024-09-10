@@ -50,7 +50,7 @@ a {
     color: var(--color-green);
 }
 
-#nav {
+#nav ul{
     background-color: var(--color-green);
 }
 
