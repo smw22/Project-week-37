@@ -62,16 +62,6 @@ nav {
     padding: 0 20px;
 }
 
-.nav-list li{
-    height: 80px;
-    width: 100px;
-}
-
-.nav-list li a{
-    height: 80px;
-    width: 100px;
-}
-
 .logo-svg{
     height: 80px;
     height: auto;

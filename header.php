@@ -12,7 +12,8 @@
     <header>
         <nav>
             <ul class="nav-list">
-                <li><a href="">
+                <li>
+                    <a href="">
                         <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380.99 92.46" class="logo-svg">
                             <defs>
                                 <style>
@@ -46,7 +47,8 @@
                                 <tspan x="31.78" y="38.4">WELL BEING</tspan>
                             </text>
                         </svg>
-                    </a></li>
+                    </a>
+                </li>
                 <?php
                 wp_nav_menu(
                     array(
