@@ -58,6 +58,11 @@ nav {
     padding: 0 20px;
 }
 
+.nav-element svg {
+    height: 100px;
+    height: auto;
+}
+
 
 
 .logo-svg{
