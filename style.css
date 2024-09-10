@@ -49,10 +49,10 @@ a {
     background-color: var(--color-green);
 }
 
-.menu ul li a {
+.menu .page-item a {
     list-style-type: none;
     text-decoration: none;
-    text-tranform: uppercase;
+    text-transform: uppercase;
     color: var(--color-white);
 
 }
