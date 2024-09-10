@@ -60,7 +60,8 @@ nav {
 
 .nav-element svg {
     height: 80px;
-    /* height: auto; */
+    display: flex;
+    align-items: center;
 }
 
 .img-logo{
