@@ -79,3 +79,25 @@ nav {
     text-transform: uppercase;
     color: var(--color-white);
 }
+
+.menu li a:hover {
+    color: var(--color-gray);
+}
+
+.menu li a::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: var(--color-blue);
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    opacity:0;
+    transition: all 0.25s;
+    pointer-events: none;
+}
+
+.menu li a:hover::after,
+.menu li a:focus::after{
+    opacity:1;
+}
