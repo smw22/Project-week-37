@@ -4,6 +4,8 @@
 
             <h1>Helloooo Index</h1>
             <div class="container"></div>
+            <label for="input">Hellooo</label>
+            <input type="text" id="input" placeholder="Hellooo" />
 
         <?php endwhile ?>
     <?php endif ?>
