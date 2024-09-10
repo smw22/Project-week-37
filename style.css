@@ -13,6 +13,12 @@ Author: Sergio
     --color-light-green: #7C807C;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--color-gray);
     font-family: var(--font-family);
