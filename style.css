@@ -50,13 +50,16 @@ a {
     color: var(--color-green);
 }
 
-
 #nav {
+    background-color: var(--color-green);
+}
+
+.menu {
     background-color: var(--color-green);
     height: 128px;
 }
 
-#nav ul {
+.menu ul {
     display: flex;
     justify-content: right;
     align-items: center;
@@ -64,11 +67,11 @@ a {
     padding: 20px;
 }
 
-#nav li {
+.menu li {
     
 }
 
-#nav li a {
+.menu li a {
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
