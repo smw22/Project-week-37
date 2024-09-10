@@ -6,6 +6,7 @@ Author: Sergio
 :root{
     --color-green: #45C954;
     --color-gray: #d9d9d9;
+    --color-white: #ffffff;
 }
 
 body{
@@ -15,4 +16,10 @@ body{
 
 .menu {
     background-color: var(--color-green);
+}
+
+.menu ul li {
+    list-style-type: none;
+    color: var(--color-white);
+
 }
