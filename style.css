@@ -43,8 +43,8 @@ p {
 }
 
 a {
-    font-size: 24px;
-    font-weight: 600px;
+    font-size: 20px;
+    font-weight: 700px;
     list-style-type: none;
     font-style: none;
     color: var(--color-green);
