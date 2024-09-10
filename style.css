@@ -50,7 +50,7 @@ a {
     color: var(--color-green);
 }
 
-#nav ul{
+#nav {
     background-color: var(--color-green);
 }
 
@@ -60,6 +60,7 @@ a {
 }
 
 .menu ul {
+    background-color: var(--color-green);
     display: flex;
     justify-content: right;
     align-items: center;
