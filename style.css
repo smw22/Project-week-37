@@ -59,8 +59,8 @@ nav {
 }
 
 .nav-element svg {
-    height: 100px;
-    height: auto;
+    height: 80px;
+    /* height: auto; */
 }
 
 .img-logo{
