@@ -13,7 +13,7 @@
         <nav>
             <div class="nav-element">
                 <a href="" class="nav-element-link">
-                    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380.99 92.46" class="logo-svg">
+                    <!-- <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380.99 92.46" class="logo-svg">
                         <defs>
                             <style>
                                 .cls-1 {
@@ -45,7 +45,8 @@
                             <tspan class="cls-3" x="25.07" y="38.4"> </tspan>
                             <tspan x="31.78" y="38.4">WELL BEING</tspan>
                         </text>
-                    </svg>
+                    </svg> -->
+                    <img src="img/website-logo.svg" alt="">
                 </a>
             </div>
             <?php
