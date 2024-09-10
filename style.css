@@ -49,7 +49,7 @@ a {
     background-color: var(--color-green);
 }
 
-.menu .page-item li a {
+.menu li a {
     list-style-type: none;
     text-decoration: none;
     text-transform: uppercase;
