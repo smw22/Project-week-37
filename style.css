@@ -49,7 +49,7 @@ a {
     background-color: var(--color-green);
 }
 
-.menu ul li {
+.menu ul li a {
     list-style-type: none;
     color: var(--color-white);
 
