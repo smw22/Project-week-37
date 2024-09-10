@@ -53,6 +53,7 @@ a {
 
 .menu {
     background-color: var(--color-green);
+    height: 128px;
 }
 
 .menu ul {
