@@ -175,6 +175,10 @@ nav {
     
 }
 
+.item + .item {
+    border-top: 40px solid #E0E0E0;
+}
+
 .item:nth-child(even) {
     flex-direction: row-reverse;
 }
