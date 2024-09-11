@@ -136,7 +136,7 @@ nav {
     object-fit: cover;
     object-position: center;
     opacity: 0.65;
-    
+
 }
 
 .hero-text {
@@ -152,11 +152,69 @@ nav {
 .hero-text h1 {
     filter: drop-shadow(3px 15px 70px #292929e3);
 }
+
 /* Header */
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
 
+/* Styling each item */
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
 
-.contact-container{
+/* Image styling */
+.item-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.item-img img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Text styling */
+.item-text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.item-text h2 {
+    color: #4CAF50;
+    /* Change this to match the green in your design */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.item-text p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+/* Adjust the layout to fit a horizontal split */
+@media screen and (min-width: 768px) {
+    .item {
+        flex-direction: row;
+    }
+}
+
+/* Optional spacing between content blocks */
+.item+.item {
+    border-top: 1px solid #E0E0E0;
+}
+
+.contact-container {
     display: flex;
     width: 90%;
     margin: 0 auto;
@@ -165,7 +223,7 @@ nav {
     margin-top: 100px;
 }
 
-form{
+form {
     background-color: #fff;
     box-shadow: 10px 10px 75px #a8a8a8;
     border-radius: 16px;
@@ -173,7 +231,7 @@ form{
 
 }
 
-#submit-btn{
+#submit-btn {
     padding: 10px;
     color: white;
     background-color: rgb(44, 44, 252);
@@ -184,3 +242,5 @@ form{
     background-color: var(--color-green);
 }
 
+    background-color: blue;
+}
