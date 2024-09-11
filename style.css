@@ -198,7 +198,7 @@ nav {
 }
 
 .item:nth-child(even) .item-text{
-    color: blue;
+    background-color: blue;
 }
 
 .item-text h2 {
