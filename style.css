@@ -189,7 +189,7 @@ nav {
     float: left;
 }
 
-.item-img img:nth-child(even) {
+.item .item-img img:nth-child(even) {
     float: right;
 }
 
