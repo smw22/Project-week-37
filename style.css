@@ -122,7 +122,8 @@ nav {
     width: 100%;
     max-height: fit-content;
     overflow: hidden;
-    background-color: #272727;
+    /* background-color: #272727; */
+    
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -135,7 +136,8 @@ nav {
     height: 60vh;
     object-fit: cover;
     object-position: center;
-    opacity: 0.65;
+    /* opacity: 0.65; */
+    filter: brightness(65%);
 
 }
 
@@ -191,6 +193,7 @@ nav {
 .item-img img {
     max-width: 100%;
     height: auto;
+    
 }
 
 
