@@ -229,7 +229,7 @@ form {
     box-shadow: 10px 10px 75px #a8a8a8;
     border-radius: 16px;
     padding: 25px;
-
+    width: 40%;
 }
 
 #submit-btn {
