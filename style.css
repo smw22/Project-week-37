@@ -243,15 +243,30 @@ form {
     box-shadow: 10px 10px 75px #818181;
     border-radius: 16px;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-names{
+    display: flex;
+    gap: 20px;
 }
 
 span{
+    display: block;
     width: 100%;
 }
 
-#first-name{
-    background-color: red;
-    width: fit-content;
+input{
+    background-color: #d9d9d9;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"]{
+    height: 40px;
+    border-radius: 10px;
 }
 
 #submit-btn {
