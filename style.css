@@ -150,7 +150,7 @@ nav {
 }
 
 .hero-text h1 {
-    filter: drop-shadow(3px 15px 70px #000000);
+    filter: drop-shadow(3px 15px 70px var(--color-gray));
 }
 /* Header */
 
