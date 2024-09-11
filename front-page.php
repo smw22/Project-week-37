@@ -52,6 +52,42 @@
             </div>
         </div>
 
+        <div class="item">
+                <div class="item-img">
+                    <img src="https://picsum.photos/1280/720" alt="">
+                </div>
+                <div class="item-text">
+                    <H2>HEADLINE</H2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ut magnam, provident consectetur quas odit
+                        maxime exercitationem corporis? Odio deserunt minima recusandae laboriosam aut minus impedit reiciendis
+                        cum et voluptas sit ullam praesentium ratione iure molestiae at corrupti tempore iste, tenetur
+                        obcaecati? Quos harum ducimus, mollitia modi facilis porro rerum in ea officiis dolorum eum nihil
+                        eligendi repellendus molestiae animi hic commodi, suscipit provident ipsum possimus totam! Pariatur
+                        voluptatibus magni quibusdam aperiam, laboriosam soluta maiores debitis nihil minus vitae provident
+                        blanditiis eius iure repellendus eveniet optio incidunt, dicta voluptatem repellat, quos ipsam non
+                        facilis excepturi sint! Perferendis nemo error ipsa?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+                <div class="item-img">
+                    <img src="https://picsum.photos/1280/720" alt="">
+                </div>
+                <div class="item-text">
+                    <H2>HEADLINE</H2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ut magnam, provident consectetur quas odit
+                        maxime exercitationem corporis? Odio deserunt minima recusandae laboriosam aut minus impedit reiciendis
+                        cum et voluptas sit ullam praesentium ratione iure molestiae at corrupti tempore iste, tenetur
+                        obcaecati? Quos harum ducimus, mollitia modi facilis porro rerum in ea officiis dolorum eum nihil
+                        eligendi repellendus molestiae animi hic commodi, suscipit provident ipsum possimus totam! Pariatur
+                        voluptatibus magni quibusdam aperiam, laboriosam soluta maiores debitis nihil minus vitae provident
+                        blanditiis eius iure repellendus eveniet optio incidunt, dicta voluptatem repellat, quos ipsam non
+                        facilis excepturi sint! Perferendis nemo error ipsa?</p>
+                </div>
+            </div>
+        </div>
+
     <?php endwhile ?>
 <?php endif ?>
 
