@@ -286,6 +286,8 @@ span#conditional-checkboxes{
 
 span.wpcf7-list-item{
     display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 #submit-btn {
