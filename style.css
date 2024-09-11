@@ -28,6 +28,8 @@ h1 {
     font-size: 64px;
     font-weight: 700;
     color: var(--color-green);
+    text-transform: uppercase;
+    text-wrap: wrap;
 }
 
 h2 {
@@ -133,7 +135,7 @@ nav {
     height: 60vh;
     object-fit: cover;
     object-position: center;
-    opacity: 0.7;
+    opacity: 0.65;
     
 }
 
@@ -144,5 +146,6 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    z-index: 1;
 }
 /* Header */
