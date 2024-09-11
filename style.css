@@ -241,6 +241,10 @@ form {
     padding: 25px;
 }
 
+span{
+    width: 100%;
+}
+
 #first-name{
     background-color: red;
     width: fit-content;
