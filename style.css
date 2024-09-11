@@ -112,7 +112,8 @@ nav {
 }
 
 .hero-image {
-    margin: 0 auto;
+    display: flex;
+    place-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
