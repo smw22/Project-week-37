@@ -158,6 +158,7 @@ nav {
 .container {
     display: flex;
     flex-direction: column;
+    place-items: center;
     margin-top: 50px;
     width: 100%;
     height: 100vh;
@@ -173,7 +174,7 @@ nav {
     
 }
 
-.item:nth-child(2n) {
+.item:nth-child(even) {
     flex-direction: row-reverse;
 }
 
@@ -184,7 +185,7 @@ nav {
 }
 
 .item-img img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -194,6 +195,10 @@ nav {
 .item-text {
     flex: 1;
     padding: 0 20px;
+}
+
+.item-text:nth-child(even) {
+    color: blue;
 }
 
 .item-text h2 {
