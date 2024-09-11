@@ -239,15 +239,21 @@ form {
     box-shadow: 10px 10px 75px #818181;
     border-radius: 16px;
     padding: 25px;
+    display: flex;
+}
+
+.forms-names{
+    display: flex;
 }
 
 span{
+    display: block;
     width: 100%;
 }
 
-#first-name{
+input{
     background-color: red;
-    width: fit-content;
+    width: 100%;
 }
 
 #submit-btn {
