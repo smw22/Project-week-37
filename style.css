@@ -113,7 +113,7 @@ nav {
 
 .hero-image {
     width: 100%;
-    max-height: 100vh;
+    max-height: 50vh;
     background-color: aqua;
     background-repeat: no-repeat;
     background-size: cover;
