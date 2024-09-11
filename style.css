@@ -112,8 +112,8 @@ nav {
 }
 
 .hero-image {
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    background-color: aqua;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
