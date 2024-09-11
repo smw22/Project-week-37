@@ -50,9 +50,8 @@
                         facilis excepturi sint! Perferendis nemo error ipsa?</p>
                 </div>
             </div>
-        </div>
 
-        <div class="item">
+            <div class="item">
                 <div class="item-img">
                     <img src="https://picsum.photos/1280/720" alt="">
                 </div>
@@ -68,9 +67,8 @@
                         facilis excepturi sint! Perferendis nemo error ipsa?</p>
                 </div>
             </div>
-        </div>
 
-        <div class="item">
+            <div class="item">
                 <div class="item-img">
                     <img src="https://picsum.photos/1280/720" alt="">
                 </div>
@@ -86,7 +84,12 @@
                         facilis excepturi sint! Perferendis nemo error ipsa?</p>
                 </div>
             </div>
+
+
+
         </div>
+
+        
 
     <?php endwhile ?>
 <?php endif ?>
