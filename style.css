@@ -120,7 +120,7 @@ nav {
     width: 100%;
     max-height: fit-content;
     overflow: hidden;
-    background-color: var(--color-green);
+    background-color: #272727;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -133,7 +133,7 @@ nav {
     height: 60vh;
     object-fit: cover;
     object-position: center;
-    opacity: 0.6;
+    opacity: 0.7;
     
 }
 
