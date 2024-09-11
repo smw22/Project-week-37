@@ -228,12 +228,15 @@ nav {
     gap: 10%;
 }
 
+#wpcf7-f21-p16-o1{
+    width: 40%;
+}
+
 form {
     background-color: #fff;
     box-shadow: 10px 10px 75px #a8a8a8;
     border-radius: 16px;
     padding: 25px;
-    width: 40%;
 }
 
 #submit-btn {
