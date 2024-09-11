@@ -245,6 +245,10 @@ form {
     padding: 25px;
 }
 
+#first-name{
+    background-color: red;
+}
+
 #submit-btn {
     padding: 10px 20px;
     color: white;
