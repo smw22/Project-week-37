@@ -258,7 +258,8 @@ span{
     width: 100%;
 }
 
-input{
+input,
+textarea{
     background-color: #d9d9d9;
     width: 100%;
 }
@@ -267,6 +268,7 @@ input[type="text"],
 input[type="email"]{
     height: 40px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 #submit-btn {
