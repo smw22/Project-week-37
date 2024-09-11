@@ -162,6 +162,7 @@ nav {
     margin-top: 50px;
     width: 100%;
     height: 100vh;
+    background-color: #FFFFFF;
 }
 
 /* Styling each item */
@@ -169,7 +170,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     max-width: 1000px;
     
 }
@@ -220,11 +221,6 @@ nav {
     .item {
         flex-direction: row;
     }
-}
-
-/* Optional spacing between content blocks */
-.item+.item {
-    border-top: 1px solid #E0E0E0;
 }
 
 
