@@ -167,7 +167,7 @@ nav {
 
 form{
     background-color: #fff;
-    box-shadow: 2px 2px 25px black;
+    box-shadow: 10px 10px 75px #a8a8a8;
     border-radius: 16px;
     padding: 25px;
 
@@ -176,6 +176,11 @@ form{
 #submit-btn{
     padding: 10px;
     color: white;
-    background-color: blue;
+    background-color: rgb(44, 44, 252);
+    border-radius: 5px;
+}
+
+#submit-btn:hover{
+    background-color: var(--color-green);
 }
 
