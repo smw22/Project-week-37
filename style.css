@@ -149,3 +149,16 @@ nav {
     z-index: 1;
 }
 /* Header */
+
+
+
+.contact-container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-form{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px black;
+}
