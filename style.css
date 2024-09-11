@@ -50,6 +50,11 @@ a {
     color: var(--color-green);
 }
 
+
+/* default and root elements ^^ */
+
+/* header */
+
 nav {
     background-color: var(--color-green);
     height: 128px;
@@ -111,6 +116,7 @@ nav {
     display: none;
 }
 
+<<<<<<< Updated upstream
 .hero-image {
     width: 100%;
     max-height: 50vh;
@@ -135,3 +141,6 @@ nav {
     transform: translate(-50%, -50%);
     color: white;
 }
+=======
+/* Header */
+>>>>>>> Stashed changes
