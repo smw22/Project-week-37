@@ -161,7 +161,7 @@ nav {
     place-items: center;
     margin-top: 50px;
     width: 100%;
-    height: 100vh;
+    height: 600px;
     background-color: #FFFFFF;
 }
 
@@ -171,8 +171,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-    max-width: 1000px;
+    background-color: var(--color-gray);
     
+}
+
+.item + .item {
+    border-top: 40px solid #E0E0E0;
 }
 
 .item:nth-child(even) {
