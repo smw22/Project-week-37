@@ -250,6 +250,7 @@ form {
 
 .form-names{
     display: flex;
+    gap: 20px;
 }
 
 span{
@@ -260,6 +261,10 @@ span{
 input{
     background-color: #d9d9d9;
     width: 100%;
+}
+
+input[type=text]{
+    height: 20px;
 }
 
 #submit-btn {
