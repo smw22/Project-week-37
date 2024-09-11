@@ -223,10 +223,9 @@ nav {
 .contact-container {
     display: flex;
     width: 90%;
-    margin: 0 auto;
+    margin: 100px auto;
     justify-content: center;
     gap: 10%;
-    margin-top: 100px;
 }
 
 form {
@@ -243,9 +242,13 @@ form {
     background-color: rgb(44, 44, 252);
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 600px;
+    border: 1px solid black;
 }
 
 #submit-btn:hover{
     background-color: var(--color-green);
+    border: 1px solid white;
 }
 
