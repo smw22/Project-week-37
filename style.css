@@ -171,8 +171,9 @@ nav {
     margin-bottom: 50px 0;
 }
 
-.item:nth-child(2n) {
+.item:nth-child(even) {
     flex-direction: row-reverse;
+    background-color: green;
 }
 
 /* Image styling */
