@@ -263,8 +263,10 @@ input{
     width: 100%;
 }
 
-input[type=text]{
-    height: 20px;
+input[type="text"],
+input[type="email"]{
+    height: 40px;
+    border-radius: 10px;
 }
 
 #submit-btn {
