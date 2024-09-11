@@ -59,6 +59,4 @@
             );
             ?>
         </nav>
-        <h1>Project Hellooo</h1>
-
     </header>
