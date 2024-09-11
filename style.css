@@ -197,7 +197,7 @@ nav {
     padding: 0 20px;
 }
 
-.item-text:nth-child(even) {
+.item > .item-text:nth-child(even) {
     color: blue;
 }
 
