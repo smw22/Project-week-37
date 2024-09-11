@@ -148,6 +148,10 @@ nav {
     color: white;
     z-index: 1;
 }
+
+.hero-text h1 {
+    filter: drop-shadow(3px 15px 70px #292929e3);
+}
 /* Header */
 
 
