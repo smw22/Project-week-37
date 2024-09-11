@@ -160,9 +160,22 @@ nav {
     display: flex;
     width: 90%;
     margin: 0 auto;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 100px;
 }
 
 form{
     background-color: #fff;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 25px black;
+    border-radius: 16px;
+    padding: 25px;
+
 }
+
+#submit-btn{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+
