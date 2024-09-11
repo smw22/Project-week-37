@@ -284,6 +284,10 @@ span#conditional-checkboxes{
     display: flex;
 }
 
+span.wpcf7-list-item{
+    display: flex;
+}
+
 #submit-btn {
     padding: 10px 20px;
     color: white;
