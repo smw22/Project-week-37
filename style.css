@@ -248,7 +248,7 @@ form {
     gap: 20px;
 }
 
-.forms-names{
+.form-names{
     display: flex;
 }
 
@@ -258,7 +258,7 @@ span{
 }
 
 input{
-    background-color: red;
+    background-color: #d9d9d9;
     width: 100%;
 }
 
