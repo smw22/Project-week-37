@@ -275,7 +275,8 @@ input[type="email"]{
     font-size: 20px;
 }
 
-input[type="submit"]{
+input[type="submit"],
+input[type="checkbox"]{
     width: fit-content;
 }
 
