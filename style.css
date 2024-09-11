@@ -95,7 +95,7 @@ nav {
     background-color: var(--color-white);
     position: absolute;
     left: 0;
-    bottom: -5px;
+    bottom: -10px;
     opacity: 1;
     transition: all 0.25s;
     pointer-events: none;
