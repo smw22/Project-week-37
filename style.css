@@ -244,6 +244,8 @@ form {
     border-radius: 16px;
     padding: 25px;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .forms-names{
