@@ -3,7 +3,7 @@
     <?php while (have_posts()):
         the_post() ?>
 
-    <?php $title = get_field('hero-title'); ?>
+        <?php $title = get_field('hero-title'); ?>
 
 
 
@@ -12,6 +12,21 @@
                 <h1><?php echo $title; ?></h1>
             </div>
             <img src="https://picsum.photos/1280/720" alt="">
+        </div>
+
+
+        <div class="container">
+            <div class="item">
+                <div class="item-img">
+                    <img src="https://picsum.photos/1280/720" alt="">
+                </div>
+                <div class="item-text">
+                    <h2>HEADLINE <H2></H2>2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt officiis sequi fugiat numquam fugit
+                        nostrum corrupti, reprehenderit nam sit repellendus ab ipsam debitis possimus sint unde exercitationem
+                        sunt modi amet.</p>
+                </div>
+            </div>
         </div>
 
     <?php endwhile ?>
