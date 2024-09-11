@@ -23,14 +23,12 @@
                 </div>
                 <div class="item-text">
                     <H2>HEADLINE</H2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad neque deleniti molestias temporibus error
-                        alias ratione beatae reprehenderit! Quo nam repudiandae quos tenetur, repellendus, eaque perspiciatis
-                        harum aperiam ipsum doloremque deleniti exercitationem in ipsa, dolor soluta sint consequuntur ducimus?
-                        Quidem facere quae laboriosam saepe iste dolorum, et natus reprehenderit, perspiciatis ex, sed
-                        assumenda? Expedita quasi molestiae voluptatem explicabo, nihil repellendus omnis laborum iste similique
-                        velit laboriosam repudiandae quos placeat a ipsam natus, maxime accusantium commodi repellat tempore
-                        laudantium! Adipisci natus ipsam eius, ducimus architecto est quaerat, rerum beatae praesentium tempore
-                        consequuntur, numquam quo suscipit maiores tenetur! Beatae corporis dignissimos aut?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique eius adipisci voluptate quo?
+                        Eligendi magni enim, sed velit sint voluptas ut cupiditate aspernatur similique sit. Aperiam ipsam
+                        delectus nobis voluptas harum doloribus cumque atque corrupti quaerat omnis, fugiat vel distinctio
+                        incidunt ut natus laborum molestias quidem aut quia. Accusantium ad atque quam nemo similique ipsam
+                        excepturi id. Harum rerum cum temporibus, atque inventore in quaerat quasi. Consequatur mollitia sequi
+                        officia libero quam at fuga perspiciatis, corrupti, nisi velit voluptate!</p>
                 </div>
             </div>
 
@@ -40,14 +38,12 @@
                 </div>
                 <div class="item-text">
                     <H2>HEADLINE</H2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse soluta nostrum rem sunt quidem animi fugiat
-                        odit qui laboriosam molestiae eos temporibus, atque architecto sapiente aliquid doloribus numquam nemo
-                        enim repellendus dolore deleniti nesciunt. Voluptatum architecto, necessitatibus reprehenderit error
-                        iste aperiam explicabo soluta maxime nobis a ducimus, dicta dolor quod magni. Doloribus, est accusantium
-                        ea perferendis explicabo commodi eaque cumque, ut earum quis placeat sunt alias repudiandae maiores
-                        facilis ducimus deserunt qui minima dolores recusandae saepe sapiente, fugit consequuntur tempore. Qui,
-                        officia adipisci hic, porro sit esse repellendus voluptate recusandae in alias aspernatur dicta eos
-                        aliquam repellat, voluptatum reprehenderit rerum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptas distinctio voluptates dolores
+                        mollitia! Est, mollitia nesciunt unde possimus nihil, optio amet deserunt officia autem nostrum eos.
+                        Magni adipisci itaque odit, repellendus iure nobis minima ipsam eius perferendis natus quisquam omnis
+                        dicta saepe ea asperiores numquam distinctio repellat. Quas sint amet obcaecati omnis aliquid eius!
+                        Quibusdam impedit eius fuga sed placeat modi earum ipsa mollitia consequuntur molestiae eaque vero iste,
+                        enim numquam, quis quos quaerat qui delectus ipsum. Voluptatibus, sunt!</p>
                 </div>
             </div>
         </div>
