@@ -61,7 +61,7 @@ nav {
 
 .nav-element svg {
     height: 70px;
-    
+
 }
 
 .menu ul {
@@ -84,11 +84,11 @@ nav {
 }
 
 .menu li a:hover,
-.menu li a:focus{
+.menu li a:focus {
     color: var(--color-gray);
 }
 
-.menu li a::after{
+.menu li a::after {
     content: "";
     height: 3px;
     width: 0%;
@@ -102,11 +102,27 @@ nav {
 }
 
 .menu li a:hover::after,
-.menu li a:focus::after{
+.menu li a:focus::after {
     width: 100%;
-    opacity:1;
+    opacity: 1;
 }
 
 .menu .page-item-12 {
     display: none;
+}
+
+.hero-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
