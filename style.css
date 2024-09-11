@@ -247,6 +247,7 @@ form {
 
 #first-name{
     background-color: red;
+    width: fit-content;
 }
 
 #submit-btn {
