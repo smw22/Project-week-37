@@ -280,6 +280,10 @@ input[type="checkbox"]{
     width: fit-content;
 }
 
+span#conditional-checkboxes{
+    display: flex;
+}
+
 #submit-btn {
     padding: 10px 20px;
     color: white;
