@@ -12,8 +12,8 @@
     <header>
         <nav>
             <div class="nav-element">
-                <a href="<?php get_permalink("frontpage") ?>"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380.99 92.46"
-                        class="logo-svg">
+                <a href="<?php echo get_permalink( get_page_by_path('frontpage') ); ?>">
+                    <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380.99 92.46" class="logo-svg">
                         <defs>
                             <style>
                                 .cls-1 {
