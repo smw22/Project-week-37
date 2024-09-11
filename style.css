@@ -94,7 +94,7 @@ nav {
     position: absolute;
     left: 0;
     bottom: -15px;
-    opacity:0;
+    opacity: 1;
     transition: all 0.25s;
     pointer-events: none;
 }
