@@ -169,7 +169,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px 0;
+    margin-bottom: 50px;
     
 }
 
@@ -180,13 +180,17 @@ nav {
 /* Image styling */
 .item-img {
     flex: 1;
-    display: flex;
-    justify-content: center;
+    
 }
 
 .item-img img {
     max-width: 80%;
     height: auto;
+    float: left;
+}
+
+.item-img img:nth-child(even) {
+    float: right;
 }
 
 /* Text styling */
