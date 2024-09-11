@@ -3,7 +3,7 @@
     <?php while (have_posts()):
         the_post() ?>
 
-        <?php $title = get_the_field('hero-title'); ?>
+    <?php $title = get_field('hero-title'); ?>
 
 
 
