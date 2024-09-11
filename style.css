@@ -277,6 +277,7 @@ input[type="email"]{
     height: 40px;
     border-radius: 10px;
     font-size: 20px;
+    border: 1px solid #666666;
 }
 
 input[type="submit"],
