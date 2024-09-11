@@ -212,7 +212,7 @@ nav {
 } 
 
 .item-text h2 {
-    color: #4CAF50;
+    color: var(--color-green);
     /* Change this to match the green in your design */
     font-size: 35px;
     margin-bottom: 10px;
@@ -220,7 +220,7 @@ nav {
 
 .item-text p {
     font-size: 16px;
-    color: #666666;
+    color: var(--color-light-green);
     line-height: 1.5;
 }
 
