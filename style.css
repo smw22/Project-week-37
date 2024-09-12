@@ -311,3 +311,23 @@ option{
     background-color: var(--color-green);
     border: 1px solid white;
 }
+
+
+/* Footer */
+
+footer{
+    color: var(--color-green);
+    width: 90%;
+    margin: 25px auto;
+}
+
+.footer-list-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
