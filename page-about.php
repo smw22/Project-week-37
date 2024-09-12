@@ -16,7 +16,7 @@
                         <p>Together, we can build a future where mental health is valued, understood, and actively supported. Join us in making a difference for the generations to come.</p>
                     </div>
                     <div class="about-image">
-
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about-image.png" alt="">
                     </div>
                 </div>
 
