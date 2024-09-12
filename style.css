@@ -421,7 +421,7 @@ option{
 .about-description{
     background-color: var(--color-white);
     padding: 20px;
-    box-shadow: -10px 10px 20px #ccc;
+    box-shadow: -10px 10px 20px black;
 }
 
 .about-description-text{
