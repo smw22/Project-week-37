@@ -546,17 +546,11 @@ footer{
 @media screen and (max-width: 768px) {
     /*header */
     nav {
-        background-color: var(--color-green);
-        height: 128px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 5%;
+        height: 80px;
     }
     
     .nav-element svg {
         height: 40px;
-    
     }
 
     .ham-menu{
