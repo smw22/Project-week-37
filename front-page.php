@@ -31,21 +31,21 @@
                     $info_img = get_field('infoblock-image');
                     $info_content = get_field('infoblock-content');
                     ?>
-
-
-                    <div class="item">
-                        <div class="item-img">
-                            <img src="<?php echo $info_img["url"] ?>" alt="">
-                        </div>
-                        <div class="item-text">
-                            <h2><?php echo $info_title; ?></h2>
-                            <p><?php echo $info_content ?></p>
-                        </div>
-                    </div>
-
-
                 <?php endwhile; ?>
             <?php endif; ?>
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="<?php echo $info_img["url"] ?>" alt="">
+                </div>
+                <div class="item-text">
+                    <h2><?php echo $info_title; ?></h2>
+                    <p><?php echo $info_content ?></p>
+                </div>
+            </div>
+
+
+
         </div>
 
         <div class="container2">
