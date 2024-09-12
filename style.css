@@ -254,11 +254,12 @@ nav {
     border-radius: 50%; 
     background-color: var(--color-gray); 
     object-fit: cover; 
+    margin-bottom: 40px;
 }
 
 .expert h1 {
     font-size: 20px;
-    margin: 10px 0;
+    margin: 20px 0;
     font-weight: bold;
 }
 
