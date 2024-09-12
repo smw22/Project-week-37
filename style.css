@@ -546,17 +546,11 @@ footer{
 @media screen and (max-width: 768px) {
     /*header */
     nav {
-        background-color: var(--color-green);
-        height: 128px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 5%;
+        height: 80px;
     }
     
     .nav-element svg {
         height: 40px;
-    
     }
 
     .ham-menu{
@@ -567,7 +561,7 @@ footer{
         cursor: pointer;
     }
 
-    #header-span{
+    .header-span{
         display: inline-block;
         width: 30px; 
         height: 4px;
@@ -592,17 +586,17 @@ footer{
         background-color: var(--dark-color);
         height: 100vh;
         width: 100%;
-        max-width: 450px;
+        max-width: 768px;
         position: fixed;
         top:0;
-        right: -450px;
+        right: -768px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-size: 2.5rem;
         transition: all 0.5s ease;
-        color: var(--light-color);
+        background-color: var(--color-green);
         z-index: 3;
     }
 
@@ -611,13 +605,7 @@ footer{
     }
     
     .menu ul {
-        background-color: var(--color-green);
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        list-style-type: none;
-        padding: 20px 0 20px 20px;
-        gap: 25px;
+        flex-direction: column;
     }
     
 }
