@@ -40,10 +40,10 @@
     </div>
 
     <div class="footer-partners">
-        <img src="img/logo-partners-1.webp" alt="">
-        <img src="img/logo-partners-2.png" alt="">
-        <img src="img/logo-partners-3.png" alt="">
-        <img src="img/logo-partners-4.png" alt="">
+        <img src="/img/logo-partners-1.webp" alt="">
+        <img src="/img/logo-partners-2.png" alt="">
+        <img src="/img/logo-partners-3.png" alt="">
+        <img src="/img/logo-partners-4.png" alt="">
     </div>
 </footer>
 
