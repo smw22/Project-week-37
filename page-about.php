@@ -15,8 +15,8 @@
                         <p>Rooted in the United Nations Sustainable Development Goal 3, our focus is on creating a space where mental health is prioritized and destigmatized. Through engaging content, expert advice, and interactive features, we aim to spark conversations, offer support, and drive positive change.</p>
                         <p>Together, we can build a future where mental health is valued, understood, and actively supported. Join us in making a difference for the generations to come.</p>
                     </div>
-                    <div class="about-image">
-
+                    <div class="about-image-box">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/about-image.png" alt="" class="about-image">
                     </div>
                 </div>
 

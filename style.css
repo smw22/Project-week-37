@@ -407,6 +407,20 @@ option{
 
 .about-introduction{
     width: 50%;
+    align-self: center;
+    margin-bottom: 75px;
+}
+
+.about-section{
+    display: flex;
+}
+
+.about-image-box{
+    width:50%;
+}
+
+.about-image{
+    width: 100%;
 }
 
 
