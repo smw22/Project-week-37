@@ -608,5 +608,6 @@ footer{
     /* footer */
     .footer-list-box{
         flex-direction: column;
+        gap: 25px;
     }
 }
