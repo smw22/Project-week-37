@@ -114,6 +114,33 @@
                     delectus ipsa optio? Magni incidunt molestias, velit aspernatur tempora vel iste itaque asperiores suscipit
                     odio!"</p>
             </div>
+
+            <div class="expert">
+                <img src="https://picsum.photos/1280/720" alt="">
+                <h1>NAVN EFTERNAVN</h1>
+                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quas iste asperiores eum
+                    inventore fugit
+                    delectus ipsa optio? Magni incidunt molestias, velit aspernatur tempora vel iste itaque asperiores suscipit
+                    odio!"</p>
+            </div>
+
+            <div class="expert">
+                <img src="https://picsum.photos/1280/720" alt="">
+                <h1>NAVN EFTERNAVN</h1>
+                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quas iste asperiores eum
+                    inventore fugit
+                    delectus ipsa optio? Magni incidunt molestias, velit aspernatur tempora vel iste itaque asperiores suscipit
+                    odio!"</p>
+            </div>
+
+            <div class="expert">
+                <img src="https://picsum.photos/1280/720" alt="">
+                <h1>NAVN EFTERNAVN</h1>
+                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quas iste asperiores eum
+                    inventore fugit
+                    delectus ipsa optio? Magni incidunt molestias, velit aspernatur tempora vel iste itaque asperiores suscipit
+                    odio!"</p>
+            </div>
         </div>
 
 
