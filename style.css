@@ -385,4 +385,5 @@ footer{
     width: auto;
     height: 30px;
     color: var(--color-white);
+    cursor: pointer;
 }
