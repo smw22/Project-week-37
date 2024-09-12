@@ -40,10 +40,14 @@
     </div>
 
     <div class="footer-partners">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-1.webp" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-2.png" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-3.png" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-4.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-1.webp" alt="" class="partners-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-2.png" alt="" class="partners-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-3.png" alt="" class="partners-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-4.png" alt="" class="partners-image">
+    </div>
+
+    <div class="footer-rights">
+        <p>All rights reserved ©</p>
     </div>
 </footer>
 
