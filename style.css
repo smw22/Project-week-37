@@ -285,35 +285,6 @@ nav {
     border-left: none; 
 }
 
-/* Responsive design */
-@media (max-width: 1024px) {
-    .container2 {
-        flex-direction: column;
-        align-items: center; 
-    }
-
-    .expert {
-        width: 80%; 
-        border-left: none; 
-        border-bottom: 1px solid var(--color-dark-gray); 
-    }
-
-    .expert:not(:last-child) {
-        margin-bottom: 20px;
-    }
-}
-
-
-
-
-
-/* Adjust the layout to fit a horizontal split */
-@media screen and (min-width: 768px) {
-    .item {
-        flex-direction: row;
-    }
-}
-
 
 /* Contact page */
 .contact-container {
@@ -543,4 +514,35 @@ footer{
 .footer-rights p{
     color: black;
     font-size: 14px;
+}
+
+
+
+/* Responsive design */
+@media (max-width: 1024px) {
+    .container2 {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .expert {
+        width: 80%; 
+        border-left: none; 
+        border-bottom: 1px solid var(--color-dark-gray); 
+    }
+
+    .expert:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+/* Adjust the layout to fit a horizontal split */
+@media screen and (min-width: 768px) {
+    .item {
+        flex-direction: row;
+    }
 }
