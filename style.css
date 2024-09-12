@@ -397,7 +397,7 @@ option{
 /* Contact */
 
 /*About */
-.contact-container{
+.about-container{
     padding: 50px 5%;
     display: flex;
     flex-direction: column;
