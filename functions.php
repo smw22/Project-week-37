@@ -35,4 +35,3 @@ add_action("init", "theme_disable_gutenberg");
 
 
 
-?>
