@@ -217,7 +217,7 @@ nav {
 }
 
 .item-text h3 {
-    padding: 10px 0;
+    padding: 20px 0 10px 0;
 }
 
  .item:nth-child(even) .item-text{
