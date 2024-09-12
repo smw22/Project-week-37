@@ -559,6 +559,14 @@ footer{
     
     }
 
+    .ham-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        z-index: 1000;
+        cursor: pointer;
+    }
+
     #header-span{
         display: inline-block;
         width: 30px; 
