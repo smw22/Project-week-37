@@ -422,7 +422,6 @@ option{
     background-color: var(--color-white);
     padding: 20px;
     box-shadow: -10px 10px 20px #afafaf;
-    transform: translateY(50px);
     transform: translateX(50px);
 }
 
@@ -441,6 +440,7 @@ option{
 .about-image-box{
     grid-column-start: 2;
     grid-column-end: 3;
+    transform: translateY(-50px);
 }
 
 .about-image{
