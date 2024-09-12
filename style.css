@@ -39,7 +39,7 @@ h2 {
 }
 
 h3{
-    font-size: 16px;
+    font-size: 20px;
     color: var(--color-white);
 }
 
@@ -338,6 +338,7 @@ footer{
 
 .footer-item{
     color: black;
+    font-size: 14px;
 }
 
 .news-letter{
