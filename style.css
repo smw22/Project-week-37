@@ -450,6 +450,7 @@ footer{
 
 .footer-title{
     margin-bottom: 5px;
+    color: var(--color-white);
 }
 
 .footer-item{
