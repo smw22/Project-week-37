@@ -415,17 +415,12 @@ option{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
 
 }
 
 .about-image-box{
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-
 }
 
 .about-image{
