@@ -611,14 +611,6 @@ footer{
     }
     
     .menu ul {
-        background-color: var(--color-green);
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        list-style-type: none;
-        padding: 20px 0 20px 20px;
-        gap: 25px;
-
         flex-direction: column;
     }
     
