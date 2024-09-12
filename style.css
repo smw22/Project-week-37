@@ -567,7 +567,7 @@ footer{
         cursor: pointer;
     }
 
-    #header-span{
+    .header-span{
         display: inline-block;
         width: 30px; 
         height: 4px;
