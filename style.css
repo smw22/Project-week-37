@@ -175,7 +175,7 @@ nav {
 }
 
 /* Styling each item */
-.item {
+.container .item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -184,21 +184,21 @@ nav {
     
 }
 
-.item + .item {
+.container .item + .item {
     border-top: 40px solid #E0E0E0;
 }
 
-.item:nth-child(even) {
+.container .item .item:nth-child(even) {
     flex-direction: row-reverse;
 }
 
 /* Image styling */
-.item-img {
+.container .item .item-img {
     flex: 1;
     
 }
 
-.item-img img {
+.container .item .item-img img {
     max-width: 100%;
     height: auto;
     filter: brightness(75%);
@@ -208,25 +208,25 @@ nav {
 
 
 /* Text styling */
-.item-text {
+.container .item .item-text {
     flex: 1;
     margin-left: 40px; 
     text-wrap: wrap;
 }
 
- .item:nth-child(even) .item-text{
+.container .item .item:nth-child(even) .item-text{
     /* direction: rtl; */
     margin-right: 40px;
 } 
 
-.item-text h2 {
+.container .item .item-text h2 {
     color: var(--color-green);
     /* Change this to match the green in your design */
     font-size: 35px;
     margin-bottom: 10px;
 }
 
-.item-text p {
+.container .item .item-text p {
     font-size: 16px;
     color: var(--color-light-green);
     line-height: 1.5;
@@ -236,7 +236,7 @@ nav {
 
 /* Adjust the layout to fit a horizontal split */
 @media screen and (min-width: 768px) {
-    .item {
+    .container .item .item {
         flex-direction: row;
     }
 }
