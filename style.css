@@ -287,7 +287,8 @@ input[type="checkbox"]{
 }
 
 select{
-    height: 25px;
+    height: 40px;
+    font-size: 20px;
 
 }
 
