@@ -203,6 +203,7 @@ nav {
 .item-img img {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
     /* filter: brightness(75%); */
     
 }
