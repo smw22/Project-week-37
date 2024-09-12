@@ -518,15 +518,38 @@ footer{
     font-size: 14px;
 }
 
+
+/* Responsive design */
 @media (max-width: 1150px) {
+
+    /* contact responsive */
     .contact-container {
         flex-direction: column;
         gap: 50px;
     }
+
+    /* about responsive */
+    .about-introduction{
+        width: 100%;
+        align-self: center;
+        margin-bottom: 25px;
+    }
+    
+    .about-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;    
+    }
+    
+    .about-description{
+        order: 2
+    }
+    
+    .about-image-box{
+        order: 1
+    }
 }
 
-
-/* Responsive design */
 @media (max-width: 1024px) {
     .container2 {
         flex-direction: column;
@@ -550,7 +573,7 @@ footer{
         font-size: 40px;
     }
 
-    /*header */
+    /*header responsive*/
     nav {
         height: 80px;
     }
@@ -614,13 +637,13 @@ footer{
         flex-direction: column;
     }
 
-    /* contact */
+    /* contact responsive*/
     form {
         width: 100%;
     }
 
     
-    /* footer */
+    /* footer responsive*/
     .footer-list-box{
         display: flex;
         flex-direction: column;
