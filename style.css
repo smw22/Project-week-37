@@ -539,11 +539,8 @@ footer{
 }
 
 
-
-
-
-/* Adjust the layout to fit a horizontal split */
 @media screen and (max-width: 768px) {
+
     /*header */
     nav {
         height: 80px;
@@ -608,4 +605,10 @@ footer{
         flex-direction: column;
     }
     
+    /* footer */
+    .footer-list-box{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
 }
