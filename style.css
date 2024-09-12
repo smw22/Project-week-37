@@ -559,6 +559,15 @@ footer{
     
     }
 
+    #header-span{
+        display: inline-block;
+        width: 30px; 
+        height: 4px;
+        border-radius: 25px;
+        background-color: var(--color-white);
+        transition: all 0.3s;
+    }
+
     .menu{
         background-color: var(--dark-color);
         height: 100vh;
@@ -587,8 +596,4 @@ footer{
         gap: 25px;
     }
     
-    /*frontpage */
-    .item {
-        flex-direction: row;
-    }
 }

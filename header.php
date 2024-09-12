@@ -48,6 +48,12 @@
                     </svg>
                 </a>
             </div>
+            <div class="ham-menu">
+                <span class="ham-menu-first-span header-span"></span>
+                <span class="ham-menu-midle-span header-span"></span>
+                <span class="ham-menu-last-span header-span"></span>
+            </div>
+
             <?php
             wp_nav_menu(
                 array(
