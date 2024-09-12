@@ -443,6 +443,7 @@ option{
     grid-column-end: 3;
     transform: translateY(-75px);
     z-index: 1;
+    box-shadow: 10px -10px 20px #afafaf;
 }
 
 .about-image{
