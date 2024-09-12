@@ -17,19 +17,21 @@ function register_my_menus() {
     );
 }
 
-function theme_disable_gutenberg($current_status, $post_type) {
-    remove_post_type_support("page", "editor");
-    remove_post_type_support("post", "editor");
+// function theme_disable_gutenberg() {
+//     remove_post_type_support("page", "editor");
+//     remove_post_type_support("post", "editor");
+// }
 
+// add_action("init", "theme_disable_gutenberg");
+
+function theme_disable_gutenberg($current_status, $post_type) {
+    // Disable for all post types except for specific types (like if you want to keep Gutenberg on some)
     if ( ! in_array( $post_type, array( 'acf-field', 'acf-field-group' ), true ) ) {
         return false;
     }
-
     return $current_status;
 }
-
 add_filter('use_block_editor_for_post_type', 'theme_disable_gutenberg', 10, 2);
-add_action("init", "theme_disable_gutenberg");
 
 
 
