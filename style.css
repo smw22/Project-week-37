@@ -411,7 +411,17 @@ option{
     margin-bottom: 75px;
 }
 
+.about-section{
+    display: flex;
+}
 
+.about-image-box{
+    width: 400px;
+}
+
+.about-image{
+    width: 100%;
+}
 
 
 /* Footer */
