@@ -344,3 +344,8 @@ footer{
 .news-letter{
     display: flex;
 }
+
+.footer-input{
+    border-radius: 2px 0 0 2px;
+
+}

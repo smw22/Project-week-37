@@ -26,7 +26,7 @@
         <div class="footer-list">
             <h3>Subscribe to Our news letter</h3>
             <div class="news-letter">
-                <input type="text" placeholder="Your email adress" />
+                <input type="text" class="footer-input" placeholder="Your email adress" />
                 <button>Sign Up</button>
             </div>
         </div>
