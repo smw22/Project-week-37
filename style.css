@@ -336,9 +336,18 @@ footer{
     gap: 10px;
 }
 
+.footer-title{
+    margin-bottom: 5px;
+}
+
 .footer-item{
     color: black;
     font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-item:hover{
+    color: var(--color-gray);
 }
 
 .news-letter{
