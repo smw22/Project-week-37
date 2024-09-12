@@ -2,25 +2,25 @@
     <div class="footer-list-box">
         <div class="footer-list">
             <h3>Programs</h3>
-            <p>Best practice Communication</p>
-            <p>Families and caregivers</p>
-            <p>Strategy and Policy</p>
-            <p>Community</p>
+            <p class="footer-item">Best practice Communication</p>
+            <p class="footer-item">Families and caregivers</p>
+            <p class="footer-item">Strategy and Policy</p>
+            <p class="footer-item">Community</p>
         </div>
 
         <div class="footer-list">
             <h3>Prevencion in practice</h3>
-            <p>Resources</p>
-            <p>Understanding mental health</p>
-            <p>Promotion approaches</p>
-            <p>Prevention in practice</p>
+            <p class="footer-item">Resources</p>
+            <p class="footer-item">Understanding mental health</p>
+            <p class="footer-item">Promotion approaches</p>
+            <p class="footer-item">Prevention in practice</p>
         </div>
 
         <div class="footer-list">
             <h3>About</h3>
-            <p>Our Institute</p>
-            <p>Upcoming events</p>
-            <p>Contact</p>
+            <p class="footer-item">Our Institute</p>
+            <p class="footer-item">Upcoming events</p>
+            <p class="footer-item">Contact</p>
         </div>
 
         <div class="footer-list">

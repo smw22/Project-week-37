@@ -38,6 +38,11 @@ h2 {
     color: var(--color-green);
 }
 
+h3{
+    font-size: 16px;
+    color: var(--color-white);
+}
+
 p {
     font-size: 20px;
     font-weight: 400;
@@ -329,6 +334,10 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.footer-item{
+    color: black;
 }
 
 .news-letter{
