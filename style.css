@@ -413,10 +413,11 @@ option{
 
 .about-section{
     display: flex;
+    width: 100%;
 }
 
 .about-image-box{
-    width: 400px;
+    width:50%;
 }
 
 .about-image{
