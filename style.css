@@ -406,13 +406,13 @@ option{
 }
 
 .about-introduction{
+    width: 50%;
     align-self: center;
     margin-bottom: 75px;
 }
 
 .about-section{
     display: flex;
-    width: 100%;
 }
 
 .about-image-box{
