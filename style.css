@@ -576,6 +576,18 @@ footer{
         transition: all 0.3s;
     }
 
+    .ham-menu-first-span.active{
+        transform: rotate(45deg) translateY(5px);
+    }
+    
+    .ham-menu-midle-span.active{
+        display: none;
+    }
+    
+    .ham-menu-last-span.active{
+        transform: rotate(-45deg) translateY(-5px);
+    }
+
     .menu{
         background-color: var(--dark-color);
         height: 100vh;
@@ -592,6 +604,10 @@ footer{
         transition: all 0.5s ease;
         color: var(--light-color);
         z-index: 3;
+    }
+
+    .menu.active{
+        right: 0;
     }
     
     .menu ul {
