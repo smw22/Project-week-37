@@ -286,20 +286,6 @@ input[type="checkbox"]{
     width: fit-content;
 }
 
-span#conditional-checkboxes{
-    display: flex;
-}
-
-span.wpcf7-list-item{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-span.wpcf7-list-item-label{
-    text-align: center;
-}
-
 #submit-btn {
     padding: 10px 20px;
     color: white;
