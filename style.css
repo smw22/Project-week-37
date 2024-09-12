@@ -518,6 +518,12 @@ footer{
     font-size: 14px;
 }
 
+@media (max-width: 1150px) {
+    .contact-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
 
 
 /* Responsive design */
@@ -604,6 +610,12 @@ footer{
     .menu ul {
         flex-direction: column;
     }
+
+    /* contact */
+    form {
+        width: 100%;
+    }
+
     
     /* footer */
     .footer-list-box{
@@ -613,13 +625,6 @@ footer{
     }
 
     .footer-partners{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-
         flex-wrap: wrap;
-
-        gap: 40px;
-        margin: 75px 0 75px 0;
     }
 }
