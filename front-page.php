@@ -25,7 +25,7 @@
 
             <div class="item">
                 <div class="item-img">
-                    <img src="<?php echo $infoImg ?>" alt="">
+                    <img src="<?php echo $infoImg["url"] ?>" alt="">
                 </div>
                 <div class="item-text">
                     <h2><?php echo $infoTitle; ?></h2>
