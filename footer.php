@@ -24,7 +24,7 @@
         </div>
 
         <div class="footer-list">
-            <h3 class="footer-title">Subscribe to Our news letter</h3>
+            <h3 class="footer-title">Subscribe to our news letter</h3>
             <div class="news-letter">
                 <input type="text" id="footer-input" placeholder="Your email adress" />
                 <button class="footer-btn">Sign Up</button>
@@ -40,7 +40,10 @@
     </div>
 
     <div class="footer-partners">
-
+        <img src="img/logo-partners-1.webp" alt="">
+        <img src="img/logo-partners-2.png" alt="">
+        <img src="img/logo-partners-3.png" alt="">
+        <img src="img/logo-partners-4.png" alt="">
     </div>
 </footer>
 
