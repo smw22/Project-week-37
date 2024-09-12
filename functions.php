@@ -31,7 +31,7 @@ function theme_disable_gutenberg($current_status, $post_type) {
     }
     return $current_status;
 }
-add_filter('use_block_editor_for_post_type', 'theme_disable_gutenberg', 10, 2);
+add_action("init", theme_disable_gutenberg())
 
 
 
