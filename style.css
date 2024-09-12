@@ -124,6 +124,10 @@ nav {
     display: none;
 }
 
+/* Header */
+
+/* Frontapage */
+
 .hero-image {
     width: 100%;
     max-height: fit-content;
@@ -161,8 +165,6 @@ nav {
 .hero-text h1 {
     filter: drop-shadow(3px 15px 70px #292929e3);
 }
-
-/* Header */
 
 .container {
     display: flex;
@@ -542,6 +544,64 @@ footer{
 
 /* Adjust the layout to fit a horizontal split */
 @media screen and (min-width: 768px) {
+    /*header */
+    nav {
+        background-color: var(--color-green);
+        height: 128px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+    }
+    
+    .nav-element svg {
+        height: 40px;
+    
+    }
+
+    .menu{
+        background-color: var(--dark-color);
+        height: 100vh;
+        width: 100%;
+        max-width: 450px;
+        position: fixed;
+        top:0;
+        right: -450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        transition: all 0.5s ease;
+        color: var(--light-color);
+        z-index: 3;
+    }
+    
+    .menu ul {
+        background-color: var(--color-green);
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        list-style-type: none;
+        padding: 20px 0 20px 20px;
+        gap: 25px;
+    }
+    
+    .menu li a {
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--color-white);
+        position: relative;
+        transition: all 0.3s;
+    }
+    
+    .menu li a:hover,
+    .menu li a:focus {
+        color: var(--color-gray);
+    }
+    
+    /*frontpage */
     .item {
         flex-direction: row;
     }
