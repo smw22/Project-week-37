@@ -330,3 +330,7 @@ footer{
     flex-direction: column;
     gap: 10px;
 }
+
+.news-letter{
+    display: flex;
+}
