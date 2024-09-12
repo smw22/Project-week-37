@@ -542,11 +542,13 @@ footer{
     }
     
     .about-description{
-        order: 2
+        order: 2;
+        transform: translateX(0);
     }
     
     .about-image-box{
-        order: 1
+        order: 1;
+        transform: translateY(0);
     }
 }
 
