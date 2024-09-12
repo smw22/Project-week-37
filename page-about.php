@@ -2,7 +2,7 @@
     <?php if(have_posts()): ?>
         <?php while(have_posts()): the_post() ?>
 
-            <div class="contact-container">
+            <div class="about-container">
                 <div class="about-introduction">
                     <h1>About Us</h1>
                     <p>Welcome to Good Health & Well Being, where our mission is to champion mental health and well-being as a core pillar of a thriving future.</p>       
