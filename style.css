@@ -254,6 +254,7 @@ nav {
     border-radius: 50%; 
     background-color: var(--color-gray); 
     object-fit: cover; 
+    margin-bottom: 40px;
 }
 
 .expert h1 {
