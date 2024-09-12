@@ -42,7 +42,7 @@
                             <h2><?php echo $info_title; ?></h2>
                             <p><?php echo $info_content ?></p>
                             <h3><?php echo $info_subheader ?></h3>
-                            <p><?php echo $indo_subcontent ?></p>
+                            <p><?php echo $info_subcontent ?></p>
                         </div>
                     </div>
                     <?php
