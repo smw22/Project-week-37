@@ -278,7 +278,7 @@ textarea{
     font-size: 20px;
 }
 
-input[type="text"],
+form > input[type="text"],
 input[type="email"]{
     height: 40px;
     border-radius: 10px;
@@ -359,7 +359,8 @@ footer{
 }
 
 .footer-btn{
-    width: fit-content;
-    border-radius: 0 2px 2px 0;
+    width: 80px;
+    padding: 0 5px;
+    border-radius: 0 10px 10px 0;
     background-color: rgb(44, 44, 252);
 }
