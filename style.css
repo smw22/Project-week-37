@@ -395,7 +395,7 @@ footer{
     flex-direction: row;
     justify-content: center;
     gap: 40px;
-    margin: 50px 0 75px 0;
+    margin: 75px 0 75px 0;
 }
 
 .partners-image{
@@ -411,5 +411,5 @@ footer{
 
 .footer-rights p{
     color: black;
-    font-size: 10px;
+    font-size: 14px;
 }
