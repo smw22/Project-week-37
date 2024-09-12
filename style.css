@@ -546,6 +546,9 @@ footer{
 
 
 @media screen and (max-width: 768px) {
+    h1{
+        font-size: 40px;
+    }
 
     /*header */
     nav {
