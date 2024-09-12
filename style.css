@@ -322,7 +322,7 @@ option{
 
 footer{
     background-color: var(--color-green);
-    padding: 75px 5%;
+    padding: 75px 5% 0 5%;
 }
 
 .footer-list-box{
@@ -393,7 +393,7 @@ footer{
     flex-direction: row;
     justify-content: center;
     gap: 40px;
-    margin: 50px 0 0 0;
+    margin: 50px 0 75px 0;
 }
 
 .partners-image{
