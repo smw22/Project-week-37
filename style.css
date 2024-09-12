@@ -375,3 +375,13 @@ footer{
 .footer-btn:hover{
     color: var(--color-white);
 }
+
+.social-media{
+    display: flex;
+    gap: 5px;
+}
+
+.social-media-item{
+    width: 30px;
+    height: auto;
+}
