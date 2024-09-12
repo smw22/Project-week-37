@@ -9,7 +9,7 @@
         </div>
 
         <div class="footer-list">
-            <h3 class="footer-title">Prevencion in practice</h3>
+            <h3 class="footer-title">Prevention in practice</h3>
             <p class="footer-item">Resources</p>
             <p class="footer-item">Understanding mental health</p>
             <p class="footer-item">Promotion approaches</p>
