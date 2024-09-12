@@ -378,10 +378,11 @@ footer{
 
 .social-media{
     display: flex;
-    gap: 5px;
+    gap: 15px;
 }
 
 .social-media-item{
-    width: 30px;
-    height: auto;
+    width: auto;
+    height: 30px;
+    color: var(--color-white);
 }
