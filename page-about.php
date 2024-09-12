@@ -7,7 +7,7 @@
                     <h1>About Us</h1>
                     <p>Welcome to Good Health & Well Being, where our mission is to champion mental health and well-being as a core pillar of a thriving future.</p>       
                 </div>
-                <section class="about-section">
+                <div class="about-section">
                     <div class="about-description">
                         <h2>Welcome to Good Health & Well Being—where your mental health journey begins.</h2>
                         <p>At Good Health & Well Being, we are dedicated to addressing the mental health challenges faced by Generation Z and Generation Alpha. These young generations hold the promise of shaping a brighter world, and we believe that ensuring their mental well-being is crucial for this vision to become a reality.</p>
@@ -18,7 +18,7 @@
                     <div class="about-image">
 
                     </div>
-                </section>
+                </div>
 
             </div>
 
