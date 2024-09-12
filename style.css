@@ -245,7 +245,7 @@ nav {
     text-align: center; 
     width: 30%; 
     border-left: 2px solid var(--color-dark-gray); 
-    padding: 40px 20px; 
+    padding: 40px 10%; 
 }
 
 .expert img {
