@@ -163,8 +163,6 @@ nav {
 
 /* Header */
 
-/*frontpage */
-
 .container {
     display: flex;
     flex-direction: column;
@@ -175,7 +173,7 @@ nav {
 }
 
 /* Styling each item */
-.container .item {
+.item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -184,21 +182,21 @@ nav {
     
 }
 
-.container .item + .item {
+.item + .item {
     border-top: 40px solid #E0E0E0;
 }
 
-.container .item .item:nth-child(even) {
+.item:nth-child(even) {
     flex-direction: row-reverse;
 }
 
 /* Image styling */
-.container .item .item-img {
+.item-img {
     flex: 1;
     
 }
 
-.container .item .item-img img {
+.item-img img {
     max-width: 100%;
     height: auto;
     filter: brightness(75%);
@@ -208,25 +206,25 @@ nav {
 
 
 /* Text styling */
-.container .item .item-text {
+.item-text {
     flex: 1;
     margin-left: 40px; 
     text-wrap: wrap;
 }
 
-.container .item .item:nth-child(even) .item-text{
+ .item:nth-child(even) .item-text{
     /* direction: rtl; */
     margin-right: 40px;
 } 
 
-.container .item .item-text h2 {
+.item-text h2 {
     color: var(--color-green);
     /* Change this to match the green in your design */
     font-size: 35px;
     margin-bottom: 10px;
 }
 
-.container .item .item-text p {
+.item-text p {
     font-size: 16px;
     color: var(--color-light-green);
     line-height: 1.5;
@@ -236,12 +234,11 @@ nav {
 
 /* Adjust the layout to fit a horizontal split */
 @media screen and (min-width: 768px) {
-    .container .item .item {
+    .item {
         flex-direction: row;
     }
 }
 
-/*frontpage*/
 
 /* Contact page */
 .contact-container {
@@ -322,7 +319,6 @@ option{
     border: 1px solid white;
 }
 
-/*Contact page*/
 
 /* Footer */
 
@@ -417,5 +413,3 @@ footer{
     color: black;
     font-size: 14px;
 }
-
-/*footer */
