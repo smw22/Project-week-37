@@ -18,3 +18,10 @@ function register_my_menus()
         )
     );
 }
+
+function theme_disable_gutenberg(){
+    remove_post_type_support("page","editor");
+    remove_post_type_support("post","editor");
+}
+add_action("init","theme_disable_gutenberg");
+add_filter('use_block_editor_for_post', '__return_false');
