@@ -30,6 +30,8 @@
                     $info_title = get_field('infoblock-title');
                     $info_img = get_field('infoblock-image');
                     $info_content = get_field('infoblock-content');
+                    $info_subheader = get_field('infoblock-subheader');
+                    $info_subcontent = get_field('infoblock-subcontent');
                     ?>
 
                     <div class="item">
@@ -39,6 +41,8 @@
                         <div class="item-text">
                             <h2><?php echo $info_title; ?></h2>
                             <p><?php echo $info_content ?></p>
+                            <h3><?php echo $info_subheader ?></h3>
+                            <p><?php echo $indo_subcontent ?></p>
                         </div>
                     </div>
                     <?php
