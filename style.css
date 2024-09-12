@@ -422,6 +422,12 @@ option{
     background-color: var(--color-white);
     padding: 20px;
     box-shadow: -10px 10px 20px #afafaf;
+    transform: translateY(50px);
+    transform: translateX(50px);
+}
+
+.about-description-title{
+    font-size: 30px;
 }
 
 .about-description-text{
