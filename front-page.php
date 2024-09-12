@@ -5,9 +5,9 @@
 
         <?php 
         $title = get_field('hero-title'); 
-        $infoTitle = get_field('infoblock-title');
-        $infoImg = get_field('infoblock-image');
-        $infoContent = get_field('infoblock-content');
+        $info_title = get_field('infoblock-title');
+        $info_img = get_field('infoblock-image');
+        $info_content = get_field('infoblock-content');
         ?>
         
 
@@ -25,11 +25,11 @@
 
             <div class="item">
                 <div class="item-img">
-                    <img src="<?php echo $infoImg["url"] ?>" alt="">
+                    <img src="<?php echo $info_img["url"] ?>" alt="">
                 </div>
                 <div class="item-text">
-                    <h2><?php echo $infoTitle; ?></h2>
-                    <p><?php echo $infoContent ?></p>
+                    <h2><?php echo $info_title; ?></h2>
+                    <p><?php echo $info_content ?></p>
                 </div>
             </div>
 
