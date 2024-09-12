@@ -418,6 +418,12 @@ option{
 
 }
 
+.about-description{
+    background-color: var(--color-white);
+    padding: 20px;
+    box-shadow: 10px 10px 75px #333;
+}
+
 .about-description-text{
     font-size: 14px;
     color: black;
