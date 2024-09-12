@@ -316,7 +316,7 @@ option{
 /* Footer */
 
 footer{
-    color: var(--color-green);
+    background-color: var(--color-green);
     width: 90%;
     margin: 25px auto;
 }
