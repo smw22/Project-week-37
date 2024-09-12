@@ -358,6 +358,11 @@ footer{
     border-radius: 10px 0 0 10px;
 }
 
+.footer-input::placeholder{
+    font-size: 16px;
+    padding-left: 5px;
+}
+
 .footer-btn{
     width: 80px;
     padding: 0 5px;
