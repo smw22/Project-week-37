@@ -163,6 +163,8 @@ nav {
 
 /* Header */
 
+/*frontpage */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -294,6 +296,7 @@ nav {
     }
 }
 
+/*frontpage*/
 
 /* Contact page */
 .contact-container {
@@ -374,6 +377,7 @@ option{
     border: 1px solid white;
 }
 
+/*Contact page*/
 
 /* Footer */
 
@@ -468,3 +472,5 @@ footer{
     color: black;
     font-size: 14px;
 }
+
+/*footer */
