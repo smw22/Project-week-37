@@ -29,6 +29,13 @@
                 <input type="text" id="footer-input" placeholder="Your email adress" />
                 <button class="footer-btn">Sign Up</button>
             </div>
+            <div class="social-media">
+                <img src="img/email.svg" alt="">
+                <img src="img/tiktok.svg" alt="">
+                <img src="img/instagram.svg" alt="">
+                <img src="img/facebook.svg" alt="">
+                <img src="img/youtube.svg" alt="">
+            </div>
         </div>
     </div>
 
