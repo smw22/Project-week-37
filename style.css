@@ -218,6 +218,7 @@ nav {
 
 .item-text h3 {
     padding: 20px 0 10px 0;
+    text-transform: uppercase;
 }
 
  .item:nth-child(even) .item-text{
