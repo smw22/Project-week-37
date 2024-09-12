@@ -427,6 +427,9 @@ option{
 .about-description-text{
     font-size: 14px;
     color: black;
+    padding: 25px;
+    display: grid;
+    gap: 20px;
 }
 
 .about-image-box{
