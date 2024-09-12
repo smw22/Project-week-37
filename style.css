@@ -233,7 +233,7 @@ nav {
 /* Container styling */
 .container2 {
     display: flex;
-    justify-content: space-between; /* Space between the expert cards */
+    justify-content: space-evenly; /* Space between the expert cards */
     gap: 20px; /* Optional gap between the items */
     padding: 20px;
 }
