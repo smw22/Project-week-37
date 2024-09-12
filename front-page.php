@@ -7,15 +7,6 @@
         $title = get_field('hero-title');
         ?>
 
-        <?php
-        $info_title = get_field('infoblock-title');
-        $info_img = get_field('infoblock-image');
-        $info_content = get_field('infoblock-content');
-        ?>
-
-
-
-
         <div class="hero-image">
             <div class="hero-text">
                 <h1><?php echo $title; ?></h1>
@@ -25,6 +16,23 @@
 
 
         <div class="container">
+
+            <?php
+            // Custom query for infoblock post type
+            $infoblock_query = new WP_Query(array(
+                'post_type' => 'infoblock',
+                'posts_per_page' => -1
+            ));
+
+            if ($infoblock_query->have_posts()):
+                while ($infoblock_query->have_posts()):
+                    $infoblock_query->the_post();
+                    $info_title = get_field('infoblock-title');
+                    $info_img = get_field('infoblock-image');
+                    $info_content = get_field('infoblock-content');
+                    ?>
+                <?php endwhile; ?>
+            <?php endif; ?>
 
             <div class="item">
                 <div class="item-img">
