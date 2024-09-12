@@ -20,7 +20,7 @@
             <?php
             // Custom query for infoblock post type
             $infoblock_query = new WP_Query(array(
-                'post_type' => 'infoblocks',
+                'post_type' => 'infoblock',
                 'posts_per_page' => -1
             ));
 
