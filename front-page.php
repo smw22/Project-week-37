@@ -3,13 +3,16 @@
     <?php while (have_posts()):
         the_post() ?>
 
-        <?php 
-        $title = get_field('hero-title'); 
+        <?php
+        $title = get_field('hero-title');
+        ?>
+
+        <?php
         $info_title = get_field('infoblock-title');
         $info_img = get_field('infoblock-image');
         $info_content = get_field('infoblock-content');
         ?>
-        
+
 
 
 
@@ -33,7 +36,7 @@
                 </div>
             </div>
 
-            
+
 
         </div>
 
