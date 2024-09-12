@@ -387,3 +387,8 @@ footer{
     color: var(--color-white);
     cursor: pointer;
 }
+
+.partners-image{
+    height: 75px;
+    width: auto;
+}
