@@ -45,6 +45,10 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-3.png" alt="" class="partners-image">
         <img src="<?php echo get_template_directory_uri(); ?>/img/logo-partners-4.png" alt="" class="partners-image">
     </div>
+
+    <div class="footer-rights">
+        <p>All rights reserved ©</p>
+    </div>
 </footer>
 
 

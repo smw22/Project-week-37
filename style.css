@@ -391,11 +391,17 @@ footer{
 .footer-partners{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 20px 0 0 0;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0 0 0;
 }
 
 .partners-image{
     height: 75px;
     width: auto;
+}
+
+.footer-rights{
+    display: flex;
+    justify-content: center;
 }
