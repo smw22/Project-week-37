@@ -462,6 +462,9 @@ footer{
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+}
+
+.footer-rights p{
     color: black;
     font-size: 10px;
 }
