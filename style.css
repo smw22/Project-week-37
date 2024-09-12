@@ -404,4 +404,7 @@ footer{
 .footer-rights{
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 10px;
 }
