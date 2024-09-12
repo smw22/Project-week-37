@@ -273,6 +273,11 @@ nav {
     font-size: 25px; /* Increase size of quotation marks */
     font-weight: bold;
     color: black; /* Use black for the quotation marks */
+    float: left;
+}
+
+.expert p span:last-child {
+    float: right;
 }
 
 .expert:first-child {
