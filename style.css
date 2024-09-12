@@ -423,6 +423,7 @@ option{
     padding: 20px;
     box-shadow: -10px 10px 20px #afafaf;
     transform: translateX(50px);
+    z-index: 2;
 }
 
 .about-description-title{
@@ -441,6 +442,7 @@ option{
     grid-column-start: 2;
     grid-column-end: 3;
     transform: translateY(-50px);
+    z-index: 1;
 }
 
 .about-image{
