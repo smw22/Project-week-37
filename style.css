@@ -286,6 +286,15 @@ input[type="checkbox"]{
     width: fit-content;
 }
 
+select{
+    width: 20px;
+
+}
+
+option{
+    font-size: 16px;
+}
+
 #submit-btn {
     padding: 10px 20px;
     color: white;
