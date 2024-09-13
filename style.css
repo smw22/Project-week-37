@@ -565,6 +565,10 @@ footer{
         margin-right: 0;
     } 
 
+    .item-text h2 {
+        text-align: center;
+    }
+
     /* contact responsive */
     .contact-container {
         flex-direction: column;
