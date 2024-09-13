@@ -75,9 +75,9 @@
 
                     <div class="expert">
                         <img src="<?php echo $expert_img['url'] ?>" alt="">
+                        <p class="job-title"><?php echo $expert_title; ?></p>
                         <h3><?php echo $expert_name; ?></h3>
                         <p><?php echo $expert_quote; ?></p>
-                        <p class="job-title"><?php echo $expert_title; ?></p>
                     </div>
                     <?php
                 endwhile;
