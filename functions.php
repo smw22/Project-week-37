@@ -24,5 +24,6 @@ function theme_disable_gutenberg(){
     remove_post_type_support("page","editor");
     remove_post_type_support("post","editor");
     remove_post_type_support("infoblock","editor");
+    remove_post_type_support("expertblock","editor");
 }
 add_action("init","theme_disable_gutenberg");
