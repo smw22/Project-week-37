@@ -7,9 +7,9 @@
             <?php 
             $about_title = get_field("about_headline");
             $about_section = get_field("about_section");
-            $about_section2 = get_field("about-section2");
-            $about_section3 = get_field("about-section3");
-            $about_section4 = get_field("about-section4");
+            $about_section2 = get_field("about_section_2");
+            $about_section3 = get_field("about_section_3");
+            $about_section4 = get_field("about_section_4");
 
             ?>
 
