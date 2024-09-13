@@ -540,78 +540,30 @@ footer{
         margin-top: 40px;
         width: 100%;
     }
+
+    /* Image styling */
+    .item-img {
+        margin-bottom: 25px;
+    }
     
     /* Styling each item */
     .item {
-        display: flex;
-
         flex-direction: column;
-
         justify-content: flex-start;
-
-        align-items: center;
-        padding: 40px 10%;
-        background-color: var(--color-gray);
-        
-    }
-    
-    .item + .item {
-        border-top: 40px solid #E0E0E0;
     }
     
     .item:nth-child(even) {
         flex-direction: column;
     }
     
-    
-    
-    /* Image styling */
-    .item-img {
-        flex: 1;
-        
-    }
-    
-    .item-img img {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-        /* filter: brightness(75%); */
-        
-    }
-    
-    
-    
     /* Text styling */
     .item-text {
-        flex: 1;
         margin-left: 0; 
-        text-wrap: wrap;
     }
     
-    .item-text h3 {
-        padding: 30px 0 10px 0;
-        text-transform: uppercase;
-    }
-    
-     .item:nth-child(even) .item-text{
-        /* direction: rtl; */
+    .item:nth-child(even) .item-text{
         margin-right: 0;
     } 
-    
-    .item-text h2 {
-        color: var(--color-green);
-        /* Change this to match the green in your design */
-        font-size: 35px;
-        margin-bottom: 10px;
-    }
-    
-    .item-text p {
-        font-size: 16px;
-        color: var(--color-light-green);
-        line-height: 1.5;
-    }
-    
-    
 
     /* contact responsive */
     .contact-container {
