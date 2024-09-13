@@ -48,7 +48,7 @@
                     </svg>
                 </a>
             </div>
-            <div class="nav-element">
+            <div class="nav-element-menu">
                 <?php pll_the_languages( array( 'dropdown' => 1 ) ); ?>
                 <div class="ham-menu">
                     <span class="ham-menu-first-span header-span"></span>

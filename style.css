@@ -72,6 +72,10 @@ nav {
     padding: 0 5%;
 }
 
+.nav-element-menu{
+    display: flex;
+}
+
 .nav-element svg {
     height: 70px;
 
