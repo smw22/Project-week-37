@@ -43,9 +43,10 @@ function webshop_register_strings() {
     pll_register_string("Good health & well being", "Upcoming events");
     pll_register_string("Good health & well being", "Contact");
     pll_register_string("Good health & well being", "Subscribe to our news letter");
-    pll_register_string("Good health & well being", "Your email");
+    pll_register_string("Good health & well being", "Your email adress");
     pll_register_string("Good health & well being", "Sign Up");
     pll_register_string("Good health & well being", "All rights reserved");
+  
 }
 
 add_action("init", "webshop_register_strings"); 
