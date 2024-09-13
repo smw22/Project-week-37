@@ -301,6 +301,11 @@ nav {
 }
 
 
+/* dansk item*/
+.page-item-107{
+    display: none;
+}
+
 /* Contact page */
 .contact-container {
     display: flex;
