@@ -1,33 +1,33 @@
 <footer>
     <div class="footer-list-box">
         <div class="footer-list">
-            <h3 class="footer-title">Programs</h3>
-            <p class="footer-item">Best practice Communication</p>
-            <p class="footer-item">Families and caregivers</p>
-            <p class="footer-item">Strategy and Policy</p>
-            <p class="footer-item">Community</p>
+            <h3 class="footer-title"><?php pll_e("Programs")?></h3>
+            <p class="footer-item"><?php pll_e("Best practice Communication")?></p>
+            <p class="footer-item"><?php pll_e("Families and caregivers")?></p>
+            <p class="footer-item"><?php pll_e("Strategy and Policy")?></p>
+            <p class="footer-item"><?php pll_e("Community")?></p>
         </div>
 
         <div class="footer-list">
-            <h3 class="footer-title">Prevention in practice</h3>
-            <p class="footer-item">Resources</p>
-            <p class="footer-item">Understanding mental health</p>
-            <p class="footer-item">Promotion approaches</p>
-            <p class="footer-item">Prevention in practice</p>
+            <h3 class="footer-title"><?php pll_e("Prevention in practice")?></h3>
+            <p class="footer-item"><?php pll_e("Resources")?></p>
+            <p class="footer-item"><?php pll_e("Understanding mental health")?></p>
+            <p class="footer-item"><?php pll_e("Promotion approaches")?></p>
+            <p class="footer-item"><?php pll_e("Prevention in practice")?></p>
         </div>
 
         <div class="footer-list">
-            <h3 class="footer-title">About</h3>
-            <p class="footer-item">Our Institute</p>
-            <p class="footer-item">Upcoming events</p>
-            <p class="footer-item">Contact</p>
+            <h3 class="footer-title"><?php pll_e("About")?></h3>
+            <p class="footer-item"><?php pll_e("Our Institute")?></p>
+            <p class="footer-item"><?php pll_e("Upcoming events")?></p>
+            <p class="footer-item"><?php pll_e("Contact")?></p>
         </div>
 
         <div class="footer-list">
-            <h3 class="footer-title">Subscribe to our news letter</h3>
+            <h3 class="footer-title"><?php pll_e("Subscribe to our news letter")?></h3>
             <div class="news-letter">
                 <input type="text" id="footer-input" placeholder="Your email adress" />
-                <button class="footer-btn">Sign Up</button>
+                <button class="footer-btn"><?php pll_e("Sign Up")?></button>
             </div>
             <div class="social-media">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-media-item"><path fill="currentColor" d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z" /></svg>
@@ -47,7 +47,7 @@
     </div>
 
     <div class="footer-rights">
-        <p>All rights reserved ©</p>
+        <p><?php pll_e("All rights reserved")?> ©</p>
     </div>
 </footer>
 
