@@ -27,7 +27,7 @@
                     <p class="about-description-text"><?php echo $about_section ?></p>
                     <p class="about-description-text"><?php echo $about_section2 ?></p>
                     <p class="about-description-text"><?php echo $about_section3 ?></p>
-                    x<p class="about-description-text"><?php echo $about_section4 ?></p>
+                    <p class="about-description-text"><?php echo $about_section4 ?></p>
                 </div>
                 <div class="about-image-box">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/about-image.png" alt="" class="about-image">
