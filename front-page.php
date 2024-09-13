@@ -5,13 +5,14 @@
 
         <?php
         $title = get_field('hero-title');
+        $hero_image = get_field('hero-image');
         ?>
 
         <div class="hero-image">
             <div class="hero-text">
                 <h1><?php echo $title; ?></h1>
             </div>
-            <img src="https://picsum.photos/1280/720" alt="">
+            <img src="<?php echo $hero_image["url"] ?>" alt="">
         </div>
 
 
