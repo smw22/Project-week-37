@@ -77,6 +77,15 @@ nav {
     align-items: center;
 }
 
+#lang_choice_1{
+    background-color: var(--color-green);
+    border: 0;
+}
+
+#lang_choice_1 option{
+    color: var(--color-white);
+}
+
 .nav-element svg {
     height: 70px;
 
