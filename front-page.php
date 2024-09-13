@@ -59,14 +59,14 @@
 
         <?php
             // Custom query for experts post type
-            $expertsblock_query = new WP_Query(array(
+            $expertblock_query = new WP_Query(array(
                 'post_type' => 'expertblock',
                 'posts_per_page' => -1
             ));
 
-            if ($expertsblock_query->have_posts()):
-                while ($expertsblock_query->have_posts()):
-                    $expertsblock_query->the_post();
+            if ($expertblock_query->have_posts()):
+                while ($expertblock_query->have_posts()):
+                    $expertblock_query->the_post();
                     $expert_name = get_field('name');
                     $expert_title = get_field('title');
                     $expert_quote = get_field('quote');
