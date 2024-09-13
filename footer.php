@@ -26,7 +26,7 @@
         <div class="footer-list">
             <h3 class="footer-title"><?php pll_e("Subscribe to our news letter")?></h3>
             <div class="news-letter">
-                <input type="text" id="footer-input" placeholder="Your email adress" />
+                <input type="text" id="footer-input" placeholder="E-mail" />
                 <button class="footer-btn"><?php pll_e("Sign Up")?></button>
             </div>
             <div class="social-media">
