@@ -5,7 +5,10 @@
             <div class="about-container">
 
             <?php 
-            $about_title = get_field("about_headline");
+
+            $about_headline = get_field(about_headline);
+            $about_introtext = get_field(about_introtext);
+            $about_subheadline = get_field("about_headline");
             $about_section = get_field("about_section");
             $about_section2 = get_field("about_section_2");
             $about_section3 = get_field("about_section_3");
@@ -19,7 +22,7 @@
                 </div>
                 <div class="about-section">
                     <div class="about-description">
-                        <h2 class="about-description-title"><?php echo $about_title ?></h2>
+                        <h2 class="about-description-title"><?php echo $about_subheadline ?></h2>
                         <p class="about-description-text"><?php echo $about_section ?></p>
                         <p class="about-description-text"><?php echo $about_section2 ?></p>
                         <p class="about-description-text"><?php echo $about_section3 ?></p>
