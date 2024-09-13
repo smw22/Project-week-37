@@ -295,6 +295,12 @@ nav {
     border-left: none; 
 }
 
+.job-title{
+    color: black;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
 
 /* Contact page */
 .contact-container {
