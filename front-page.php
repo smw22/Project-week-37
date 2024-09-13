@@ -56,7 +56,38 @@
         </div>
 
         <div class="container2">
-            <div class="expert">
+
+        <?php
+            // Custom query for experts post type
+            $expertsblock_query = new WP_Query(array(
+                'post_type' => 'expertsblocks',
+                'posts_per_page' => -1
+            ));
+
+            if ($expertsblock_query->have_posts()):
+                while ($expertsblock_query->have_posts()):
+                    $expertsblock_query->the_post();
+                    $expert_name = get_field('name');
+                    $expert_title = get_field('title');
+                    $expert_quote = get_field('quote');
+                    $expert_img = get_field('picture');
+                    ?>
+
+                    <div class="expert">
+                        <img src="<?php echo $expert_img['url'] ?>" alt="">
+                        <h3><?php echo $expert_name; ?></h3>
+                        <p><?php echo $expert_quote; ?></p>
+                        <p><?php echo $expert_title; ?></p>
+                    </div>
+                    <?php
+                endwhile;
+                wp_reset_postdata();
+            endif;
+            ?>
+
+            
+
+            <!-- <div class="expert">
                 <img src="https://picsum.photos/1280/720" alt="">
                 <h1>NAVN EFTERNAVN</h1>
                 <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quas iste asperiores eum
@@ -72,16 +103,7 @@
                     inventore fugit
                     delectus ipsa optio? Magni incidunt molestias, velit aspernatur tempora vel iste itaque asperiores suscipit
                     odio!"</p>
-            </div>
-
-            <div class="expert">
-                <img src="https://picsum.photos/1280/720" alt="">
-                <h1>NAVN EFTERNAVN</h1>
-                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quas iste asperiores eum
-                    inventore fugit
-                    delectus ipsa optio? Magni incidunt molestias, velit aspernatur tempora vel iste itaque asperiores suscipit
-                    odio!"</p>
-            </div>
+            </div> -->
         </div>
 
 
