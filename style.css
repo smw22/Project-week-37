@@ -223,13 +223,11 @@ nav {
 }
 
  .item:nth-child(even) .item-text{
-    /* direction: rtl; */
     margin-right: 40px;
 } 
 
 .item-text h2 {
     color: var(--color-green);
-    /* Change this to match the green in your design */
     font-size: 35px;
     margin-bottom: 10px;
 }
@@ -275,15 +273,15 @@ nav {
 
 .expert p {
     font-size: 14px;
-    font-style: italic; /* Italic style to match the quote text */
+    font-style: italic; 
     line-height: 1.5;
     color: #333;
 }
 
 .expert p span {
-    font-size: 25px; /* Increase size of quotation marks */
+    font-size: 25px; 
     font-weight: bold;
-    color: black; /* Use black for the quotation marks */
+    color: black;
     float: left;
 }
 
