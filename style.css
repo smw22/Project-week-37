@@ -72,9 +72,26 @@ nav {
     padding: 0 5%;
 }
 
+.nav-element-menu{
+    display: flex;
+    align-items: center;
+}
+
+#lang_choice_1{
+    background-color: var(--color-green);
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#lang_choice_1 option{
+    color: var(--color-white);
+}
+
 .nav-element svg {
     height: 70px;
-
 }
 
 .menu ul {
@@ -180,8 +197,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 40px 10%;
-    background-color: var(--color-gray);
-    
+    background-color: var(--color-gray); 
 }
 
 .item + .item {
@@ -196,16 +212,14 @@ nav {
 
 /* Image styling */
 .item-img {
-    flex: 1;
-    
+    flex: 1;   
 }
 
 .item-img img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
-    /* filter: brightness(75%); */
-    
+    /* filter: brightness(75%); */   
 }
 
 
@@ -301,6 +315,11 @@ nav {
 }
 
 
+/* dansk item*/
+.page-item-107{
+    display: none;
+}
+
 /* Contact page */
 .contact-container {
     display: flex;
@@ -357,7 +376,6 @@ input[type="checkbox"]{
 select{
     height: 25px;
     font-size: 14px;
-
 }
 
 option{
@@ -696,7 +714,6 @@ footer{
         width: 100%;
     }
 
-    
     /* footer responsive*/
     .footer-list-box{
         display: flex;
