@@ -60,7 +60,7 @@
         <?php
             // Custom query for experts post type
             $expertsblock_query = new WP_Query(array(
-                'post_type' => 'expertsblocks',
+                'post_type' => 'expertblock',
                 'posts_per_page' => -1
             ));
 
