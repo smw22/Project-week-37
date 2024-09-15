@@ -35,6 +35,7 @@ function webshop_register_strings() {
     pll_register_string("Good health & well being", "Families and caregivers");
     pll_register_string("Good health & well being", "Community");
     pll_register_string("Good health & well being", "Prevention in practice");
+    pll_register_string("Good health & well being", "Promotion approaches");
     pll_register_string("Good health & well being", "Resources");
     pll_register_string("Good health & well being", "Understanding mental health");
     pll_register_string("Good health & well being", "Promotion approaches");
@@ -43,7 +44,6 @@ function webshop_register_strings() {
     pll_register_string("Good health & well being", "Upcoming events");
     pll_register_string("Good health & well being", "Contact");
     pll_register_string("Good health & well being", "Subscribe to our news letter");
-    pll_register_string("Good health & well being", "Your email adress");
     pll_register_string("Good health & well being", "Sign Up");
     pll_register_string("Good health & well being", "All rights reserved");
   
