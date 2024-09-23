@@ -14,7 +14,7 @@
             <div class="hero-text">
                 <h1><?php echo $title; ?></h1>
             </div>
-            <img src="<?php echo $hero_image["url"] ?>" alt="">
+            <img src="<?php echo $hero_image["url"] ?>" alt="<?php echo $hero_image["alt"] ?>">
         </div>
 
 
