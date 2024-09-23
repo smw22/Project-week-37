@@ -8,6 +8,8 @@
         $hero_image = get_field('hero-image');
         ?>
 
+        <main>
+
         <div class="hero-image">
             <div class="hero-text">
                 <h1><?php echo $title; ?></h1>
@@ -106,7 +108,7 @@
             </div> -->
         </div>
 
-
+        </main>
 
     <?php endwhile ?>
 <?php endif ?>
