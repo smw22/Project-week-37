@@ -1,3 +1,4 @@
+</main>
 <footer>
     <div class="footer-list-box">
         <div class="footer-list">
