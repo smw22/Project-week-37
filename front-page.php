@@ -39,7 +39,7 @@
 
                     <div class="item">
                         <div class="item-img">
-                            <img src="<?php echo $info_img["url"]["sizes"]["medium"] ?>" alt="<?php echo $info_img['alt'] ?>">
+                            <img src="<?php echo $info_img["sizes"]["medium"] ?>" alt="<?php echo $info_img['alt'] ?>">
                         </div>
                         <div class="item-text">
                             <h2><?php echo $info_title; ?></h2>
